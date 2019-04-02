@@ -1,0 +1,3 @@
+# Gravatar Web Component
+
+more details soon...

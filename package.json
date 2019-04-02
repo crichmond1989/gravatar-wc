@@ -1,0 +1,46 @@
+{
+  "name": "gravatar-wc",
+  "version": "0.0.1",
+  "description": "Gravatar Web Component",
+  "keywords": [
+    "gravatar",
+    "comp",
+    "component",
+    "wc",
+    "web"
+  ],
+  "author": {
+    "email": "crichmond1989@gmail.com",
+    "name": "Chris Richmond"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/crichmond1989/gravatar-wc"
+  },
+  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
+  "unpkg": "dist/gravatar-wc.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {
+    "ts-md5": "^1.2.4"
+  },
+  "devDependencies": {
+    "@stencil/core": "~0.16.2",
+    "prettier": "^1.16.4",
+    "prettier-tslint": "^0.4.2",
+    "tslint": "^5.15.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.4.1"
+  },
+  "license": "MIT"
+}
