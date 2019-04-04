@@ -25,7 +25,7 @@
 ```
 
 | name | type | options |
-| --- | --- | --- | --- |
+| --- | --- | --- |
 | email | string |  |
 | default | string | 404, blank, identicon, monsterid, mp, retro, robohash, wavatar |
 | force-default | boolean |  |
