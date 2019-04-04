@@ -12,5 +12,5 @@
   "importSorter.generalConfiguration.sortOnBeforeSave": true,
   "importSorter.sortConfiguration.joinImportPaths": true,
   "prettier.tslintIntegration": true,
-  "prettier.disableLanguages": ["json"]
+  "prettier.disableLanguages": ["markdown", "json"]
 }
