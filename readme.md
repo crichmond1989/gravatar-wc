@@ -31,7 +31,7 @@
 | force-default | boolean |  |
 | protocol | string | http, https
 | rating | string | g, pg, r, x |
-| size | number | |
+| size | number |  |
 
 ## Integration
 
